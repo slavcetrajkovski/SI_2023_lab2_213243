@@ -24,30 +24,35 @@
         String password1 = "12345678";
         String email1 = "s.trajkovski02@yahoo.com";
         User user1 = new User(null, password1, email1);
+        function(user1, users);
 //test2
 
         String username2 = "Mila";
         String password2 = "12345@.!A";
         String email2 = "mila02yahoo.com";
         User user2 = new User(username2, password2, null);
+        function(user2, users);
 //test3
 
         String username3 = "Stevo";
         String password3 = "12ccc345@.! A";
         String email3 = "stevoyahoo.com";
         User user3 = new User(username3, password3, email3);
+        function(user3, users);
 //test4
 
         String username4 = "Iva";
         String password4 = "123";
         String email4 = "iva@yahoo.com";
         User user4 = new User(username4, password4, email4);
+        function(user4, users);
 //test5
 
         String username5 = "Predrag";
         String password5 = "123!cdufhgr";
         String email5 = "predrag@yahoo.com";
         User user5 = new User(username5, password5, email5);
+        function(user5, users);
 
 
 
