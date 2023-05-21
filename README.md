@@ -71,3 +71,29 @@ Test 5
 2. user==null враќа "false", па сега се проверува user.getPassword()==null, што со дадениот тест ќе врати "true", и наредниот израз нема потреба да се проверува. (условот е исполнет, A-B)
 3. user==null и user.getPassword()==null враќаат "false", па сега се проверува user.getEmail()==null, што со дадениот тест ќе врати "true", дополнителни изрази нема за проверување, што значи условот е исполнет. (A-B)
 4. доколку сите вратат "false" условот не е исполнет и јазолот B се прескокнува. (A-C)
+ 
+Test 1
+
+        List<User> users = new ArrayList<>();
+        User user1 = null;
+        RuntimeException ex;
+        ex = assertThrows(RuntimeException.class, () -> SILab2.function(user1, users));
+        assertTrue(ex.getMessage().contains("Mandatory information missing!"));
+
+Test 2
+
+        User user2 = new User("Slavko", null, "s@yahoo.com");
+        ex = assertThrows(RuntimeException.class, () -> SILab2.function(user2, users));
+        assertTrue(ex.getMessage().contains("Mandatory information missing!"));
+
+Test 3
+
+        User user3 = new User("Slavko", "12345", null);
+        ex = assertThrows(RuntimeException.class, () -> SILab2.function(user3, users));
+        assertTrue(ex.getMessage().contains("Mandatory information missing!"));
+
+Test 4
+
+        User user4 = new User("Stojko", "12345@.!A", "stojkovic@gmail.com");
+        users.add(user4);
+        assertFalse(SILab2.function(user4, users));
