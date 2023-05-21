@@ -66,7 +66,7 @@ Test 5
         assertEquals(true, SILab2.function(user5, users));
         
 ### Multiple Condition
-![image](https://github.com/slavcetrajkovski/SI_2023_lab2_213243/assets/126784837/01c0a93f-9abe-4e62-8918-2ec67c5ba7ec)
+![image](https://github.com/slavcetrajkovski/SI_2023_lab2_213243/assets/126784837/6402ee7c-6cf8-4a91-81ea-ddb6ca03d4e0)
 1. user==null враќа "true", што значи дека останатите нема потреба да се проверуваат. (условот е исполнет, A-B)
 2. user==null враќа "false", па сега се проверува user.getPassword()==null, што со дадениот тест ќе врати "true", и наредниот израз нема потреба да се проверува. (условот е исполнет, A-B)
 3. user==null и user.getPassword()==null враќаат "false", па сега се проверува user.getEmail()==null, што со дадениот тест ќе врати "true", дополнителни изрази нема за проверување, што значи условот е исполнет. (A-B)
