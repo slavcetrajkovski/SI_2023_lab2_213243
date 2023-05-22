@@ -95,5 +95,4 @@ Test 3
 Test 4
 
         User user4 = new User("Stojko", "12345@.!A", "stojkovic@gmail.com");
-        users.add(user4);
-        assertFalse(SILab2.function(user4, users));
+        assertTrue(SILab2.function(user4, users));
