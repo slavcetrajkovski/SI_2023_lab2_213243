@@ -57,7 +57,7 @@ Test 4
         users.add(user4);
         assertEquals(false, SILab2.function(user4, users));
 
-Test 5
+Test 5 (за овој тест user5, не е ставен во листата на users, па затоа се очекува true во assertEquals)
         
         String username5 = "Predrag";
         String password5 = "123!cdufhgr";
