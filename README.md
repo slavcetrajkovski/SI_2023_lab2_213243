@@ -7,7 +7,7 @@
 ### Every Branch
 За која линија код ја обележуваат буквите, може да се види на (https://github.com/slavcetrajkovski/SI_2023_lab2_213243/blob/master/src/main/java/mk/finki/ukim/SILab2.java)
 
-![image](https://github.com/slavcetrajkovski/SI_2023_lab2_213243/assets/126784837/9623f877-fd36-495a-bcfd-a5833dbe4ed4)
+![image](https://github.com/slavcetrajkovski/SI_2023_lab2_213243/assets/126784837/6787e336-946f-4fc0-bf2a-652f936c7c3a)
 
 На сликата е прикажана матрица, со чија помош се претставени тестовите и соодветните гранки во кои влегуваат. (црвената боја означува дека гранката не е измината, а ѕвездата означува дека гранката е измината со соодветниот тест)
 
